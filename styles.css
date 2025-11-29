@@ -23,16 +23,19 @@ h1 {text-align: center;
  }
   li a {color: white; 
     display: inline-block;  
- 
-  
- 
-}
+ }
 .introvideo {
     display: flex;
     justify-content: center;
     margin-left:auto;
     margin-right:auto;
     background-color: rgb(22, 34, 62);
+}
+.introvideo video {
+    max-width: 1000px;
+    max-height: 620px;
+    width: 100%;
+    height: auto;
 }
 
 .galleryvideo1 iframe{display: inline-block;
@@ -112,4 +115,5 @@ max-width: 851px;
   }
  
 }
+
 
