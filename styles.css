@@ -1,7 +1,7 @@
 body {
     min-width: 50%;
     margin: 50px 100px;
-    
+    background-color:rgb(255 255 255);
     font-family: Arial, sans-serif;
 }
 h1 {text-align: center;
@@ -12,20 +12,104 @@ h1 {text-align: center;
     border-style: solid;
     border-color: rgb(22, 34, 62);
 }    
- a {color: white;
-    
+.navbar nav ul {
+    text-align: center;
+    padding: 0;
 }
 
  ul li {display:inline;
-padding: 10px;
-background-color: rgb(22, 34, 62);
+   padding: 10px;
+   background-color: rgb(22, 34, 62);
  }
-
-.introvideo {margin: 20px 0;
+  li a {color: white; 
+    display: inline-block;  
+ 
+  
+ 
+}
+.introvideo {
     display: flex;
     justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgb(22, 34, 62);
 }
-.galleryvideo1 {display: flex;
-    gap: 1rem;
+
+.galleryvideo1 iframe{display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+    max-width: 100%;
+    
+}
+.ccagentsphoto {text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding: 10px 10px;
+background-color: rgb(22, 34, 62);
+}
+.ccagentsphoto img {width: 100%;
+height: auto;
+max-height: 315px;
+max-width: 851px;
+}
+
+/* --------------------- */
+/* RESPONSIVE DESIGN */
+/* --------------------- */
+@media (max-width: 1024px) {
+  body {
+    margin: 30px 50px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  ul li a {
+    padding: 12px;
+    font-size: 18px;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    padding: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  ul li a {
+    text-align: center;
+    padding: 14px; }
+
+}
+@media (max-width: 480px) {
+  body {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  ul li a {
+    font-size: 16px;
+    padding: 10px;
+  }
+ 
 }
 
