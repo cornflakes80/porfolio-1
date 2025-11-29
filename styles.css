@@ -19,5 +19,11 @@ padding: 10px;
 background-color: rgb(192, 10, 10);
  }
 
-
+.introvideo {margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.galleryvideo1 {display: flex;
+    gap: 1rem;
+}
 
