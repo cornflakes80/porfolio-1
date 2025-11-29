@@ -1,0 +1,23 @@
+body {
+    min-width: 50%;
+    margin: 50px 100px;
+    
+    font-family: Arial, sans-serif;
+}
+h1 {text-align: center;
+    }
+.navbar { background-color: rgb(141, 141, 244);
+    display: block;
+    border-style: solid;
+}    
+ a {color: white;
+    
+}
+
+ ul li {display:inline;
+padding: 10px;
+background-color: rgb(192, 10, 10);
+ }
+
+
+
